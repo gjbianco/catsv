@@ -1,0 +1,20 @@
+{
+  "name": "catsv",
+  "version": "1.0.0",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "bun run index.ts",
+    "bundle": "bun build index.ts --outfile catsv --compile",
+    "clean": "rm catsv"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@fast-csv/parse": "^5.0.2"
+  }
+}
